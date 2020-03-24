@@ -53,7 +53,7 @@ $(document).on("click", "#animalButton", function(){
 
         $("#gifsHere").empty();
 
-            var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=ZPVqgETJ6vKsx8tifuEmT9rYAIXEK9Oi";
+            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=ZPVqgETJ6vKsx8tifuEmT9rYAIXEK9Oi";
 
             $.ajax({
             url: queryURL, 
